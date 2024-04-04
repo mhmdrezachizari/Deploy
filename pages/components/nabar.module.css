@@ -1,0 +1,22 @@
+.c1{
+    background-color: #fff;
+    font-size: 15px;
+}
+.c1:hover{
+    background-color: #171c21;
+}
+.linkbav{
+    text-decoration: none;
+    color: #fff;
+}
+.linkbav:hover{
+    color: #2076cd;
+}
+.navbarbrand{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.navbarbrand:hover{
+    color: #2076cd;
+}
