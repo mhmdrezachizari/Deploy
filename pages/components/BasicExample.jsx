@@ -8,14 +8,14 @@ function BasicExample() {
   return (
     <Navbar expand="lg" className="bg-dark">
       <Container>
-      <Link href='/about' className={Styles.navbarbrand}>mhmdrezachizari</Link>
+      <Link href='/about' className={`${Styles.navbarbrand} nav-link navbar-brand`}>mhmdrezachizari</Link>
         <Navbar.Toggle  className={Styles.c1} claria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link href='/Login' className={Styles.linkbav}>Login</Link>
-            <Link href='/product' className={Styles.linkbav}>Products</Link>
-            <Link href='/sale' className={Styles.linkbav}>Increadible</Link>
-            <Link href='/about' className={Styles.linkbav}>about</Link>
+            <Link href='/Login' className={`${Styles.linkbav} nav-link`}>Login</Link>
+            <Link href='/product' className={`${Styles.linkbav} nav-link`}>Products</Link>
+            <Link href='/sale' className={`${Styles.linkbav} nav-link`}>Increadible</Link>
+            <Link href='/about' className={`${Styles.linkbav} nav-link`}>about</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
