@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './LoginAski.module.css'
 
 const Errorcomponent = () => {
   return (
-    <div>Errorcomponent</div>
+    <div  className={styles.diverror}>please fill the form</div>
   )
 }
 
