@@ -10,7 +10,9 @@ const MyForm = () => {
       method: "post",
       body: JSON.stringify({
         username: values.name,
-        password: values.lastname,
+        lastname: values.lastname,
+        password: values.password,
+        email: values.email,
       }),
       headers: { "content-type": "application/json" },
     })
@@ -73,7 +75,7 @@ const MyForm = () => {
               <Field type="password" name="password" className="form-control" />
               <ErrorMessage name="password" />
             </div>
-            <button className="btn btn-primary" type="submit">
+            <button className="btn btn-primary mt-3" type="submit">
               signUp
             </button>
           </div>
