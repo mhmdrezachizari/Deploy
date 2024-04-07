@@ -4,9 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Link from 'next/link'
 import Styles from './nabar.module.css'
 
-function BasicExample() {
+function NavbarAsli() {
   return (
-    <Navbar expand="lg" className="bg-dark">
+    <Navbar expand="lg" className="bg-dark mb-3">
       <Container>
       <Link href='/about' className={`${Styles.navbarbrand} nav-link navbar-brand`}>mhmdrezachizari</Link>
         <Navbar.Toggle  className={Styles.c1} claria-controls="basic-navbar-nav" />
@@ -23,4 +23,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default NavbarAsli;

@@ -1,0 +1,13 @@
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divdakhel{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    color: aqua;
+}
