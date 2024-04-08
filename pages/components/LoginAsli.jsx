@@ -36,7 +36,7 @@ const MyForm = () => {
   const submitHandler = (values) => {
     singup(values);
     setmassage1('')
-    router.push('/')
+    // router.push('/')
   };
 
   const validationSchema = Yup.object({
