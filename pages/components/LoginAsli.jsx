@@ -26,7 +26,6 @@ const MyForm = () => {
         console.log(receivedData);
       });
   };
-
   const formFields = {
     name: "",
     lastname: "",
@@ -42,7 +41,7 @@ const MyForm = () => {
   const validationSchema = Yup.object({
     name: Yup.string().required("enter name please"),
     lastname: Yup.string().required("enter lastname please"),
-    email: Yup.string().email("your email is not correct").nullable(),
+    email: Yup.string().required().email("your email is not correct").nullable(),
     password: Yup.string().required("enter password please"),
     nationalCode: Yup.string().matches(
       "kjghjdgfksdf@!#$adsfa",
@@ -86,7 +85,10 @@ const MyForm = () => {
           </div>
         </Form>
       </Formik>
+
     </div>
+
+    
   );
 };
 
