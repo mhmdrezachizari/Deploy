@@ -16,14 +16,14 @@ const product = (props) => {
 }
 
 export default product
-export async function getStaticProps(context) {
+export async function getServerSideProps () {
   const response = await fetch("http://80.75.14.90:9090/products");
   const data = await response.json();
   return {
     props: {
       products: data,
-    },
-    revalidate: 5000,
+    }
+
 
   }
 }
