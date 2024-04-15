@@ -3,7 +3,7 @@ import styles from './LoginAski.module.css'
 
 const Errorcomponent = () => {
   return (
-    <div  className={styles.diverror}>please fill the form</div>
+    <div  className={styles.diverror}>Requierd</div>
   )
 }
 

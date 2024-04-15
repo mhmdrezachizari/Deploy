@@ -1,10 +1,24 @@
-.body{
-    height: 100%;
+.body {
+  height: 100%;
 }
-#__next{
-height: 100vh !important;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-width: 100%;
+#__next {
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.cardbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.divBtn {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.labelProduct{
+    font-size: 18px;
 }
